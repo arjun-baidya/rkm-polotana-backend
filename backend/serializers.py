@@ -11,9 +11,9 @@ class NewsSerializer(serializers.ModelSerializer):
 class EventsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Events
-        fields = ['title', 'date','time','image','description']
+        fields = ['title', 'date','time','description']
 
 class PujasSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pujas
-        fields = ['title', 'image','start_date','end_date','description']
+        fields = ['title', 'image','start_date','end_date','description','category']

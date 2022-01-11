@@ -7,7 +7,7 @@ class NewsAdmin(admin.ModelAdmin):
     list_display = ('id','title','description')
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('title','date','time','description','image')
+    list_display = ('title','date','time','description')
 
 class PujaAdmin(admin.ModelAdmin):
     list_display = ('title','category','start_date','end_date','description','image')

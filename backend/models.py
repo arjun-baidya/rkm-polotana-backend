@@ -12,7 +12,6 @@ class Events(models.Model):
     title = models.CharField(max_length=200)
     date = models.DateField()
     time = models.TimeField()
-    image = models.ImageField()
     description = models.TextField()
 
     def __str__(self):
